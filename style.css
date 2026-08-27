@@ -1,28 +1,37 @@
 body {
-    background-color: #171717;
+    background-color: #151515;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
-    padding: 30px;
+    padding: 0;
 }
 
-.container {
-    background-color: #292929;
-    width: 70%;
-    margin: 0 auto;
+header {
+    background-color: #ff6a00;
     padding: 30px;
-    border-radius: 20px;
 }
 
 h1 {
-    color: #ff6b00;
     font-size: 50px;
+    margin: 10px;
 }
 
 h2 {
-    color: #ff9d42;
-    font-size: 24px;
+    color: #ff6a00;
+    font-size: 30px;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #242424;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 20px;
 }
 
 img {
@@ -37,16 +46,23 @@ p {
 }
 
 button {
-    background-color: #ff6b00;
+    background-color: #ff6a00;
     color: white;
     font-size: 18px;
-    padding: 12px 25px;
+    padding: 15px 30px;
     margin: 20px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #ff9d42;
-    cursor: pointer;
+    background-color: #ff9d00;
+    transform: scale(1.05);
 }
+
+footer {
+    background-color: #ff6a00;
+    padding: 15px;
+}
+
